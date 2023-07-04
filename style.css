@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: black;
+}
+
+.main-container {
+  border: 2px solid #00a3cc;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color:black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color:#00a3cc;
+  text-align: center;
+  margin-top: 12px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+form > input,
+form > button {
+  width: calc(25% - 5px);
+  height: 50px;
+  font-size: 18px;
+  color: #00a3cc;
+  padding: 10px;
+  border: 1px solid #00a3cc;
+  border-radius: 5px;
+  background-color: black;
+}
+
+form > button {
+  width: 100%;
+  background-color: #333;
+  color: #00a3cc;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* form > button:hover {
+  background-color: #444;
+} */
+.main-container > #search-box{
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    
+}
+#search-box {
+  width: 97.6%;
+  height: 50px;
+  margin: 0px auto;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #00a3cc;;
+  color: #00a3cc;
+}
+
+table {
+  width: 69%;
+  border-collapse: collapse;
+  color: #00a3cc;
+
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #00a3cc;;;
+  border-collapse: collapse;
+}
+
+th {
+  background-color:#00a3cc;
+  color: white;
+}
+
+/* tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+
+.edit-button,
+.delete-button {
+  cursor: pointer;
+  color: #00a3cc;
+  margin-left: 10px;
+  border: none;
+  background: none;
+  font-size: 14px;
+  transition: color 0.2s;
+  background-color: black;
+  border-radius: 30%;
+  border: 2px solid #00a3cc;
+
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  color: #4540da;
+}
+
+/* .edit-button::after,
+.delete-button::after {
+  content: '|';
+  margin-left: 5px;
+} */
+
+.edit-button:last-child::after,
+.delete-button:last-child::after {
+  content: none;
+}
+
+.student-list {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.student-list th,
+.student-list td {
+  border-bottom: 1px solid #00a3cc;
+}
+
+.actions-cell {
+  text-align: center;
+}
+
+.add-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.add-btn-container button {
+  width: 200px;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-btn-container button:hover {
+  background-color: #444;
+}
+
+
+

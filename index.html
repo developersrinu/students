@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2>student management system</h2>
+        <form id="student-form">
+            
+
+            <input type="hidden" id="student-id">
+            <input type="text" id="student-name" placeholder="Name" required autocomplete="off">
+            <input type="text" id="student-age" placeholder="Age" required autocomplete="off">
+            <input type="text" id="student-grade" placeholder="Grade" required autocomplete="off">
+            <input type="text" id="student-degree" placeholder="Degree" required autocomplete="off">
+            <input type="email" id="student-email" placeholder="Email" required autocomplete="off"><br>
+            <button id="add-btn">Add Student</button><br>
+        </form>
+        <input type="text" id="search-box" class="search-box" placeholder="Search by name, email, or degree" autocomplete="off">
+        <table id="student-list" class="student-list">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Degree</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
